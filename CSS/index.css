@@ -1,0 +1,63 @@
+.header {
+    background-color: var(--Magic-Potion);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 8rem;
+    height: 8rem;
+}
+.logo-site{
+    text-decoration: none;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.navbar_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.icon-hamburguer {
+    color: white;
+    font-size: 2.4rem;
+}
+.navbar_right {
+    display: none;
+}
+.menu-main {
+    display: none;
+}
+.menu-authentication {
+    list-style: none;
+    padding: 0;
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.menu-authentication .item-3{
+    display: none;
+}
+.btn{
+    border: solid yellow;
+    padding: .6rem 1.2rem;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.btn-primary{
+    background: white;
+    border: 1px solid white;
+    color: var(--Magic-Potion);
+}
+.btn-outline-primary{
+    border: 1px solid white;
+    color: white;
+}
+.btn-secundary{
+    border: 1px solid transparent;
+    color: white;
+}
